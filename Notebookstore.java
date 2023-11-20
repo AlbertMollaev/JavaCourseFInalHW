@@ -178,7 +178,7 @@ public class Notebookstore {
         hashSet.add(Notebook11);
         hashSet.add(Notebook12);
         for (Notebook filter : hashSet) {
-            if (Objects.equals(filter.getOS(), colorFind)) {
+            if (Objects.equals(filter.getColor(), colorFind)) {
                 System.out.println();
                 System.out.println(filter);
                 System.out.println();
